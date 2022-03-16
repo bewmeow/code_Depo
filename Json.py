@@ -1,13 +1,5 @@
 import json as j
-from socket import *
-from threading import Thread
-import fileinput as f
-import rich as r
-import os
-import logging as l
-import datetime
 
-path = r"C:\Users\tutor\PycharmProjects\CubeTron\GUI\FUNCTOOLS\CORE\baha.json"
 json_dumps = j.dumps
 json_dump = j.dump
 json_loads = j.loads
